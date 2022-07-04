@@ -12,13 +12,13 @@
 <body>
 	<nav class="navbar navbar-expand-lg bg-light">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="Home.html">GRIP Bank</a>
+			<a class="navbar-brand" href="Home.php">GRIP Bank</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-link active" aria-current="page" href="Home.html">Dashboard</a>
+					<a class="nav-link active" aria-current="page" href="Home.php">Dashboard</a>
 					<a class="nav-link" href="T_history.php">Transaction History</a>
 					<a class="nav-link" href="UserList.php">Users</a>
 				</div>
@@ -68,7 +68,7 @@
 	<footer class="bg-light text-center text-dark fixed-bottom " style="background-color: #21081a;">
 		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
 			© 2022 Copyright:
-			<a class="text-dark" href="Home.html">Our Site</a>
+			<a class="text-dark" href="Home.php">Our Site</a>
 			<h4>creatives.doni@gmail.com</h4>
 		</div>
 	</footer>
