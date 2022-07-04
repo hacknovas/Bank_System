@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
 
         if ($query) {
             echo "<script> alert('Transaction done successfuly.');
-                                     window.location='Home.php';
+                                     window.location='Home.html';
                            </script>";
         }
 
@@ -70,13 +70,13 @@ if (isset($_POST['submit'])) {
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="Home.php">GRIP Bank</a>
+            <a class="navbar-brand" href="Home.html">GRIP Bank</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="Home.php">Dashboard</a>
+                    <a class="nav-link active" aria-current="page" href="Home.html">Dashboard</a>
                     <a class="nav-link" href="T_history.php">Transaction History</a>
                     <a class="nav-link" href="UserList.php">Users</a>
                 </div>
